@@ -2,8 +2,8 @@ name: Wf ZAP Full Scan
 run-name: Runner ZAP Full Scan
 on: 
   push:
-    types: [main, develop]
-  workflow_dispath:
+    branches: [main, develop]
+  workflow_dispatch:
 
 
 jobs:
