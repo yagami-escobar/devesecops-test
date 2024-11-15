@@ -3,6 +3,8 @@ run-name: Runner ZAP Full Scan
 on: 
   push:
     types: [main]
+  workflow_dispath:
+  
 
 jobs:
   zap_scan:
