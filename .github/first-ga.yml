@@ -1,6 +1,8 @@
 name: Wf ZAP Full Scan
 run-name: Runner ZAP Full Scan
-on: [push]
+on: 
+  push:
+    types: [main]
 
 jobs:
   zap_scan:
